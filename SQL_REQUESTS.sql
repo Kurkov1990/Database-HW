@@ -20,7 +20,7 @@ VALUES
 SELECT id, name, age, email FROM users
 ORDER BY name;
 
--- Видалення користувача з вказаним ім'ям, виведення таблиці
+-- Видалення користувача з вказаним ім'ям, виведення таблиці --
 DELETE FROM users WHERE name = 'Bob';
 SELECT * FROM users
 ORDER BY age;
