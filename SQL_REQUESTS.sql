@@ -18,7 +18,7 @@ ORDER BY name;
 
 DELETE FROM users WHERE name = 'Bob';
 
-SELECT id, name, age, email FROM users
+SELECT * FROM users
 ORDER BY age;
 
 SELECT id, name, age, email FROM users WHERE name = 'Bob';
