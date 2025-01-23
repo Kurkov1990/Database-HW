@@ -25,5 +25,5 @@ DELETE FROM users WHERE name = 'Bob';
 SELECT * FROM users
 ORDER BY age;
 
--- Перевірка видалення, виведення інформації з фільтром по імені корисьтувача
+-- Перевірка видалення, виведення інформації з фільтром по імені користувача --
 SELECT id, name, age, email FROM users WHERE name = 'Bob';
